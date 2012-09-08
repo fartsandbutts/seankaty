@@ -1,5 +1,7 @@
 body{
-  margin:0;
+  margin: 0;
+  margin-bottom: -100px;
+  padding: 0;
   background-image:url(images/gray-concrete-background.jpg);
   background-attachment: fixed;
   background-clip: border-box;
@@ -24,6 +26,7 @@ body{
   border-right-width: 35px;
   box-shadow: 6px 0px 10px -7px #000000, -6px 0px 10px -7px #000000;
   padding-bottom: 100px;
+  position: relative;
 }
 #logo{
   background-image: url(images/seanandkaty2.png);
@@ -59,7 +62,7 @@ body{
 }
 #back-white-box{
   -moz-transform: rotate(2.5deg);
-  background-color: #ffffff;
+  background-color: #fff;
   height: 454px;
   width: 740px;
   margin-left: -100px;
@@ -87,6 +90,7 @@ body{
   top: 230px;
   -moz-transform: rotate(25deg);
   opacity: .80;
+  margin-bottom: -100px;
 }
 #right-swirl{
   background-image: url("images/right-swirl.png");
@@ -100,4 +104,20 @@ body{
   top: 230px;
   -moz-transform: rotate(-25deg);
   opacity: .80;
+  margin-bottom: -100px;
+}
+#nav-bar{
+  background:#fff;
+  bottom: 19px;
+  height: 106px;
+  left: -81px;
+  margin: auto;
+  position: absolute;
+  width: 698px;
+  z-index: 0;
+}
+#nav-bar a{
+  display:block;
+  height: 106px;
+  float: left;
 }
