@@ -115,9 +115,10 @@ body{
   position: absolute;
   width: 698px;
   z-index: 0;
+  background-repeat: no-repeat;
 }
-#nav-bar a{
-  display:block;
+#nav-bar #home{
+  background-image: url("images/home-button.png");
   height: 106px;
   float: left;
-}
+  width: 77px;
